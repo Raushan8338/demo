@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="48dp"
+    tools:context="com.ample.ample.nps.Fragment.Message">
+   <!-- <android.support.v7.widget.RecyclerView
+        android:id="@+id/recylcerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp"
+        tools:layout_editor_absoluteX="745dp"
+        tools:layout_editor_absoluteY="-51dp" />-->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="34dp"
+        android:background="#1a237e" />
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/ic_account_balance_wallet_black_24dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Pay Fee"
+        android:textStyle="italic"
+        android:textSize="23dp"
+        android:layout_marginLeft="58dp"
+        android:textColor="#050E52"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:text="No Record Found"
+        android:gravity="center"
+        android:textSize="15dp"
+        />
+
+
+</FrameLayout>

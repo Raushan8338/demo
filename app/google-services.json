@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "416285669577",
+    "firebase_url": "https://littlesteps-d953d.firebaseio.com",
+    "project_id": "littlesteps-d953d",
+    "storage_bucket": "littlesteps-d953d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416285669577:android:f8c44c695cbd1845",
+        "android_client_info": {
+          "package_name": "com.ample.ample.nps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416285669577-hpucfti1via12rsr27maoaakjr5iqmvi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ample.ample.nps",
+            "certificate_hash": "45465fb15a4402d873f18ec899054a2381e50bdd"
+          }
+        },
+        {
+          "client_id": "416285669577-u1ajdrmf64ceb3ttlqb880qcai5rbo64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAazcvyCRx77tXUWCUGETXq7RXKo3JWKRU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416285669577-u1ajdrmf64ceb3ttlqb880qcai5rbo64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

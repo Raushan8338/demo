@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ki"
+    android:orientation="vertical"
+    tools:context="com.ample.ample.nps.Actvity.ProfileActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/s"
+        >
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:id="@+id/frame"
+            android:gravity="center"
+            android:src="@drawable/ic_user_icon"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:hint="UserName"
+            android:id="@+id/user_name"
+            />
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:id="@+id/school"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:hint="UserName"
+            android:id="@+id/section"
+            />
+      </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Little Steps Play School "
+                android:textSize="20sp"
+                android:textStyle="italic"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <TabHost
+        android:id="@+id/tabHost"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/s"
+                />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/tab1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical">
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/s"
+                    android:text="Class Group"
+                    android:textSize="23dp"/>
+                <TextView
+                    android:id="@+id/cg"
+                    android:textColor="@color/s"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="80dp"
+                    android:text=": NA"
+                    android:textSize="23dp"/>
+                 </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/s"
+                        android:layout_height="match_parent"
+                        android:text="Enrollment Code"
+                        android:textSize="23dp"/>
+                    <TextView
+                        android:id="@+id/stdid"
+                        android:textColor="@color/s"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="38dp"
+                        android:text=": NA"
+                        android:textSize="23dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/s"
+                        android:layout_height="match_parent"
+                        android:text="Date Of Birth"
+                        android:textSize="23dp"/>
+                    <TextView
+                        android:id="@+id/db"
+                        android:textColor="@color/s"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="77dp"
+                        android:text=": NA"
+                        android:textSize="25dp"/>
+                </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Address"
+                        android:background="@color/s"
+                        android:textSize="23dp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:textColor="@color/s"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Class Group"
+                        android:textSize="25dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:paddingTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Father Details"
+                    android:background="@color/s"
+                    android:textStyle="italic"
+                    android:textSize="23sp"
+                    />
+                <TextView
+                    android:id="@+id/fname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Parent Name"
+                    android:textSize="23sp"
+                    android:textColor="@color/s"
+                    />
+                <TextView
+                    android:id="@+id/fmobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile Number"
+                    android:textSize="23sp"
+                    android:textColor="@color/s"
+                    />
+                <TextView
+                    android:id="@+id/femail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email Id"
+                    android:textSize="23sp"
+                    android:textColor="@color/s"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mother Details"
+                    android:background="@color/s"
+                    android:textStyle="italic"
+                    android:textSize="23sp"
+                    />
+                <TextView
+                    android:id="@+id/mname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mother Name"
+                    android:textSize="23sp"
+                    android:textColor="@color/s"
+                    />
+                <TextView
+                    android:id="@+id/mmobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile Number"
+                    android:textSize="23sp"
+                    android:textColor="@color/s"
+                    />
+                <TextView
+                    android:id="@+id/memail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email Id"
+                    android:textSize="23sp"
+                    android:textColor="@color/s"
+                    />
+
+            </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
+    </TabHost>
+
+    </LinearLayout>

@@ -1,0 +1,4 @@
+Little steps Parent Portal provides communication app for Little parents using which they can Show school announcements, Class assignments, Events.
+
+
+key:ample123

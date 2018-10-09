@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ample.ample.nps">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register" />
+        <activity android:name=".Actvity.ProfileActivity" />
+        <activity android:name=".Mainpage" />
+        <activity android:name=".Actvity.AttendanceActivity" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Actvity.Announcement" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Message" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Actvity.Fullimage" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Actvity.Assignment" android:parentActivityName=".MainActivity"></activity>
+    </application>
+
+</manifest>

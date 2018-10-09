@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:layout_marginTop="48dp"
+        tools:context="com.ample.ample.nps.Fragment.Announcements">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recylcerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="110dp"
+            tools:layout_editor_absoluteX="745dp"
+            tools:layout_editor_absoluteY="-51dp" />
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/ic_announcement_black_24dp" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginTop="43dp"
+            android:background="#1a237e" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Attendance"
+            android:textStyle="italic"
+            android:textSize="28dp"
+            android:layout_marginLeft="58dp"
+            android:textColor="#050E52" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginTop="43dp"
+            android:background="#1a237e" />
+    <!-- Row 2 with 3 columns -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/allday"
+        />
+
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="Month"
+            android:layout_weight="1"
+            android:background="#052dfa"
+            android:textColor="#fcf9f9"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="Present "
+            android:layout_weight="1"
+            android:background="#052dfa"
+            android:textColor="#fcf9f9"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="Percentage"
+            android:layout_weight="1"
+            android:background="#052dfa"
+            android:textColor="#fcf9f9"
+            android:padding="20dip"
+            android:gravity="right"/>
+
+    </TableRow>
+
+    </RelativeLayout>
+
+
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.ample.ample.nps.Actvity.Announcement">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:id="@+id/h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dear Parents,"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:textColor="@color/colorblue"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello world"
+                android:layout_below="@+id/h"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorblue"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:id="@+id/txtmess"/>
+        </RelativeLayout>
+</LinearLayout>

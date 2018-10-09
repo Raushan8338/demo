@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_icon_silhouette"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_announcement"
+            android:icon="@drawable/ic_alarm_black_24dp"
+            android:title="Announcements" />
+        <item
+            android:id="@+id/nav_assin"
+            android:icon="@drawable/ic_announcement_black_24dp"
+            android:title="Assignments" />
+
+        <item
+            android:id="@+id/nav_activity"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Activity" />
+        <item
+            android:id="@+id/nav_Message"
+            android:icon="@drawable/ic_email_filled_closed_envelope"
+            android:title="Messages" />
+        <item
+            android:id="@+id/nav_diary"
+            android:icon="@drawable/ic_edit_document"
+            android:title="Daily Diary" />
+        <item
+            android:id="@+id/nav_Pay"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Pay Fee" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Log out"
+            />
+    </group>
+
+</menu>

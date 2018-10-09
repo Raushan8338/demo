@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="37dp"
+    android:layout_marginTop="37dp"
+    android:orientation="vertical"
+    tools:context="com.ample.ample.nps.Fragment.Home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:src="@drawable/play"
+       android:layout_gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Little Steps Play School"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="At Little Steps, we work towards exploring the innate potential of each child believing each child to be unique."
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our goal is to stimulate their curiosity, guide them "
+        android:textSize="15dp"
+        android:layout_marginLeft="25dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to explore, help them to acquire skills and instill the joy of learning which would set the tone for the rest of their lives."
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+   <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Address: near district court,jaitahri road
+Anuppur madhyapradesh"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="50dp"
+        android:text=" Call +91 9039032172"
+        android:textSize="15dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textSize="15dp"
+        android:text=" Website: www.littlesteps.com"
+        />
+       <View
+           android:layout_width="320dp"
+           android:layout_height="2dp"
+           android:background="#1a237e"
+           android:layout_gravity="center"
+          />
+
+       <TableLayout
+           android:layout_below="@+id/text"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:tabMode="scrollable"
+          >
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/border"
+               android:layout_marginTop="7dp"
+               android:layout_marginLeft="6dp"
+               android:layout_marginRight="6dp"
+               android:layout_marginBottom="5dp">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1">
+
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentEnd="true"
+                       android:layout_alignParentLeft="true"
+                       android:layout_alignParentRight="true"
+                       android:layout_alignParentStart="true"
+                       android:layout_below="@+id/imgbtnfb"
+                       android:orientation="vertical"
+                       android:paddingBottom="10sp"
+                       >
+                       <TextView
+                           android:id="@+id/tweeter"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Twitter"
+                           android:gravity="center"
+                           android:layout_gravity="center"
+                           android:textColor="#000"
+                           android:textSize="14sp" />
+
+                   </LinearLayout>
+                   <ImageView
+                       android:id="@+id/imgbtnfb"
+                       android:layout_width="match_parent"
+                       android:layout_height="100dp"
+                       android:paddingBottom="16sp"
+                       android:paddingTop="16sp"
+                       android:paddingRight="16sp"
+                       android:paddingLeft="16sp"
+                       android:scaleType="fitCenter"
+                       android:adjustViewBounds="true"
+                       android:src="@drawable/twittericona" />
+               </RelativeLayout>
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentEnd="true"
+                       android:layout_alignParentLeft="true"
+                       android:layout_alignParentRight="true"
+                       android:layout_alignParentStart="true"
+                       android:layout_below="@+id/imgbtntweeter"
+                       android:orientation="vertical"
+                       >
+                       <TextView
+                           android:id="@+id/facebook"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Facebook"
+                           android:gravity="center"
+                           android:layout_gravity="center"
+                           android:textColor="#000"
+                           android:textSize="14sp" />
+                   </LinearLayout>
+                   <ImageView
+                       android:id="@+id/imgbtntweeter"
+                       android:layout_width="match_parent"
+                       android:layout_height="100dp"
+                       android:scaleType="fitCenter"
+                       android:adjustViewBounds="true"
+                       android:paddingBottom="16sp"
+                       android:paddingTop="16sp"
+                       android:paddingRight="16sp"
+                       android:paddingLeft="16sp"
+                       android:src="@drawable/fbicona" />
+               </RelativeLayout>
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentEnd="true"
+                       android:layout_alignParentLeft="true"
+                       android:layout_alignParentRight="true"
+                       android:layout_alignParentStart="true"
+                       android:layout_below="@+id/imgbtngoogle"
+                       android:orientation="vertical"
+                       >
+                       <TextView
+                           android:id="@+id/google"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Google"
+                           android:gravity="center"
+                           android:layout_gravity="center"
+                           android:textColor="#000"
+                           android:textSize="14sp" />
+                   </LinearLayout>
+                   <ImageView
+                       android:id="@+id/imgbtngoogle"
+                       android:layout_width="match_parent"
+                       android:layout_height="100dp"
+                       android:scaleType="fitCenter"
+                       android:adjustViewBounds="true"
+                       android:paddingBottom="16sp"
+                       android:paddingTop="16sp"
+                       android:paddingRight="16sp"
+                       android:paddingLeft="16sp"
+                       android:src="@drawable/gicona" />
+               </RelativeLayout>
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1">
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentEnd="true"
+                       android:layout_alignParentLeft="true"
+                       android:layout_alignParentRight="true"
+                       android:layout_alignParentStart="true"
+                       android:layout_below="@+id/imgbtnyoutube"
+                       android:orientation="vertical">
+                       <TextView
+                           android:id="@+id/youtube"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Youtube"
+                           android:textColor="#000"
+                           android:layout_gravity="center"
+                           android:textSize="14sp" />
+                   </LinearLayout>
+
+                   <ImageView
+                       android:id="@+id/imgbtnyoutube"
+                       android:layout_width="match_parent"
+                       android:layout_height="100dp"
+                       android:scaleType="fitCenter"
+                       android:adjustViewBounds="true"
+                       android:paddingBottom="16sp"
+                       android:paddingTop="16sp"
+                       android:paddingRight="16sp"
+                       android:paddingLeft="16sp"
+                       android:src="@drawable/tyicona" />
+               </RelativeLayout>
+           </TableRow>
+
+       </TableLayout>
+
+   </LinearLayout>
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>
