@@ -10,16 +10,20 @@ import com.ample.ample.nps.MainActivity;
 
 
 public class Fullimage extends AppCompatActivity {
-    String image;
-   TextView txtimg;
+
+   TextView txtimg1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fullimage);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        txtimg = findViewById(R.id.txtimg);
-
+        txtimg1 = findViewById(R.id.txtimg);
+           Bundle bundle=getIntent().getExtras();
+           if (bundle!=null)
+           {
+               int images=bundle.getInt("image");
+           }
         //image = getIntent().getStringExtra("image");
 
         /*txtimg.(image);*/

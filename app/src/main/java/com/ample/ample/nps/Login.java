@@ -29,7 +29,7 @@ public class Login extends AppCompatActivity {
     AsyncHttpClient asyncHttpClient = new AsyncHttpClient();
     SharedPreferences pref;
     SharedPreferences.Editor editor;
-    public static String Loginurl = "https://raushankumar8338.000webhostapp.com/android_login_example/Login.php";
+    public static String Loginurl = "http://www.amplesoftech.co.in/app/LoginBack.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

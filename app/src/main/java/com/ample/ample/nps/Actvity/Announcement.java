@@ -16,7 +16,10 @@ public class Announcement extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_announcement);
         //getSupportActionBar().setDisplayShowHomeEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Announcement");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         txtm = findViewById(R.id.txtmess);
 
         message = getIntent().getStringExtra("message");
