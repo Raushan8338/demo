@@ -15,8 +15,8 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="8dp"
-            >
+
+            android:padding="8dp" >
             <TextView
                 android:id="@+id/textViewdate"
                 android:layout_width="wrap_content"
@@ -29,11 +29,11 @@
                 />
             <TextView
                 android:id="@+id/textViewmessage"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="235dp"
+                android:layout_height="26dp"
                 android:layout_marginLeft="5dp"
                 android:textSize="18dp"
-                android:text="Holiday list for tpday what"
+                android:text="Holiday list for tpday Holiday list for tpday what"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                 android:textColor="#050E52" />
 

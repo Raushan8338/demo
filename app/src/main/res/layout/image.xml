@@ -34,7 +34,7 @@
                 android:id="@+id/textViewTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="19dp"
+                android:layout_marginTop="13dp"
                 android:layout_marginLeft="240dp"
                 android:text="12-9-2018"
                 android:textSize="15dp"

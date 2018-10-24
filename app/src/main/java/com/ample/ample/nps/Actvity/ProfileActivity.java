@@ -1,11 +1,14 @@
 package com.ample.ample.nps.Actvity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TabHost;
 import android.widget.TextView;
 
 
+import com.ample.ample.nps.MainActivity;
+import com.ample.ample.nps.Mainpage;
 import com.ample.ample.nps.R;
 import com.ample.ample.nps.Common;
 
@@ -82,5 +85,12 @@ public class ProfileActivity extends AppCompatActivity {
         host.addTab(spec);
 
 
+    }
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(ProfileActivity.this, Mainpage.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+        super.onBackPressed();
     }
 }

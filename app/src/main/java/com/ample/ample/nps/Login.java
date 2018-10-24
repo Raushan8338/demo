@@ -39,12 +39,12 @@ public class Login extends AppCompatActivity {
         pass = (EditText)findViewById(R.id.pass);
         login = (Button) findViewById(R.id.login);
 
-       final File file = new File("data/data/com.ample.ample.nps/shared_prefs/admin.xml");
-        if (file.exists()) {
-                Intent intent = new Intent(Login.this, Mainpage.class);
-                startActivity(intent);
-                finish();
-        }
+      // final File file = new File("data/data/com.ample.ample.nps/shared_prefs/admin.xml");
+        /*if (file.exists()) {
+            Intent intent = new Intent(Login.this, Mainpage.class);
+            startActivity(intent);
+            finish();
+        }*/
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

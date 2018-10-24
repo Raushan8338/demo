@@ -165,13 +165,14 @@ public class Mainpage extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_lock) {
             finish();
-            startActivity(new Intent(Mainpage.this,MainActivity.class));
+            startActivity(new Intent(Mainpage.this,Login.class));
             finishAffinity();
 
 
         } else if (id == R.id.action_addcontact) {
-            Toast.makeText(Mainpage.this, "Currently you have not registered any child", Toast.LENGTH_SHORT).show();
-
+            //Toast.makeText(Mainpage.this, "Currently you have not registered any child", Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(Mainpage.this,Login.class));
+            finishAffinity();
         }
 
         return super.onOptionsItemSelected(item);

@@ -27,7 +27,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Register" />
-        <activity android:name=".Actvity.ProfileActivity" />
+        <activity android:name=".Actvity.ProfileActivity" android:parentActivityName=".Mainpage"/>
         <activity android:name=".Mainpage" />
         <activity android:name=".Actvity.AttendanceActivity" android:parentActivityName=".MainActivity" />
         <activity android:name=".Actvity.Announcement" android:parentActivityName=".MainActivity" />
