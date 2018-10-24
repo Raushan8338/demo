@@ -42,7 +42,7 @@ public class BackgroundTask extends AsyncTask<String, Void, String> {
 
     @Override
     protected String doInBackground(String... params) {
-        String log_url = "https://raushankumar8338.000webhostapp.com/Loginpage/login.php";
+        String log_url = "your api service";
         String method = params[0];
         if (method.equals("login")) {
             String login_name = params[1];

@@ -29,7 +29,7 @@ public class Login extends AppCompatActivity {
     AsyncHttpClient asyncHttpClient = new AsyncHttpClient();
     SharedPreferences pref;
     SharedPreferences.Editor editor;
-    public static String Loginurl = "http://www.amplesoftech.co.in/app/LoginBack.php";
+    public static String Loginurl = "your api service";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

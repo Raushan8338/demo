@@ -37,7 +37,7 @@ import cz.msebera.android.httpclient.Header;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    private static final String URL_PRODUCTS = "https://raushankumar8338.000webhostapp.com/store/Images/Api.php";
+    private static final String URL_PRODUCTS = "your api service";
 
     AsyncHttpClient asyncHttpClient = new AsyncHttpClient();
     LinearLayout home,announc,assig,activity,message,diary,pay,attendance,log;
